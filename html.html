@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <button class="box button" onclick="Some()">Click on me</button>
+        <div class="box header" id="Header">Header</div>
+        <div class="box sidebar">Sidebar</div>
+        <div class="box content">Content
+          <br /> More content than we had before so this column is now quite tall.</div>
+        <div class="box footer">Footer</div>
+      </div>
+      <script>
+          function Some(){
+              alert(document.getElementById('Header').innerHTML)
+          }
+
+      </script>
+</body>
+</html>
